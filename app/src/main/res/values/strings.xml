@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalcApp</string>
+    <string name="lackErrorMessageTitle">"入力項目が不足しています。"</string>
+    <string name="lackErrorMessage">"2つの入力項目に数字を入れてください"</string>
+    <string name="div0ErrorMessageTitle">"分母が0です"</string>
+    <string name="div0ErrorMessage">"分母は0以外で割り算をしてください"</string>
+</resources>
