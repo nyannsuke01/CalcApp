@@ -54,11 +54,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val alertDialogBuilder = AlertDialog.Builder(this)
 
         if (tag == 0) {
-            errorTitle = getString(R.string.lackErrorMessageTitle)
-            errorMessage = getString(R.string.lackErrorMessage)
+            errorTitle = getString(R.string.lack_error_message_title)
+            errorMessage = getString(R.string.lack_error_message)
         } else if (tag == 1) {
-            errorTitle = getString(R.string.div0ErrorMessageTitle)
-            errorMessage = getString(R.string.div0ErrorMessage)
+            errorTitle = getString(R.string.div0_error_message_title)
+            errorMessage = getString(R.string.div0_error_message)
         }
         alertDialogBuilder.setTitle(errorTitle)
         alertDialogBuilder.setMessage(errorMessage)
